@@ -155,7 +155,7 @@
                                 result = Console.ReadLine();
                                 answer = Helpers.ValidateResult(result);
 
-                                if (answer == firstNumber * secondNumber)
+                                if (answer == firstNumber + secondNumber)
                                 {
                                     Console.WriteLine("That's correct! Press any key to continue. . .");
                                     score++;
